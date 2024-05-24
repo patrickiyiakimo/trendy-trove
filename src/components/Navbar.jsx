@@ -22,7 +22,7 @@ const Navbar = () => {
     <div
       className={`navbar ${
         theme === "dark" ? "dark" : ""
-      } bg-base-100 text-green-400`}
+      } bg-base-100 text-green-500`}
     >
       <div className="navbar-start">
         <div className="dropdown">
