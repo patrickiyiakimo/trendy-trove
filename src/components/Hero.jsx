@@ -16,10 +16,10 @@ const Hero = () => {
           unique style!
         </hi>
         <div className="m-20">
-          <button className="m-5 px-8 py-4 bg-green-600 rounded-md text-white font-semibold">
+          <button className="m-5 px-8 py-4 bg-orange-600 rounded-md text-white font-semibold">
             Learn More
           </button>
-          <button className=" text-green-500 font-semibold px-8 py-4 bg-transparent border-green-600 border-2 rounded-md">
+          <button className=" text-orange-500 font-semibold px-8 py-4 bg-transparent border-orange-600 border-2 rounded-md">
             About Us
           </button>
         </div>
