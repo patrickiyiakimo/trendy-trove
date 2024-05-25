@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../images/pixify-three.jpg";
+import background from "../images/dreamstime.webp";
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover h-screen bg-bottom w-full"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="p-40 items-center h-screen text-gray-800">
+      {/* <div className="p-40 items-center h-screen text-gray-800">
         <hi className="text-2xl font-bold ">
           From timeless classics to modern marvels, we offer pieces that
           transforms houses into homes. Whether you're furnishing a cozy nook or
@@ -23,7 +23,7 @@ const Hero = () => {
             About Us
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
