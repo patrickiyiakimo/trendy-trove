@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
+import React from "react";
 
 const Navbar = () => {
+
+  
+
+  // theme toggle function
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
@@ -22,9 +27,11 @@ const Navbar = () => {
     <div
       className={`navbar ${
         theme === "dark" ? "dark" : ""
-      } bg-base-100 text-green-600 font-semibold`}
+        } bg-base-100 text-green-600 font-semibold z-10 fixed
+          transition-all duration-300 ease-in-out
+        `}
     >
-      <div className="navbar-start">
+      <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
