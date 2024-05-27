@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../images/dreamstime.webp";
+import background from "../images/dreamtime-hero-image.jpg";
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover h-screen bg-bottom w-full"
       style={{ backgroundImage: `url(${background})` }}
     >
-      {/* <div className="p-40 items-center h-screen text-gray-800">
+      <div className="pt-20 pl-10 pr-10 md:p-40 items-center h-screen text-white">
         <hi className="text-2xl font-bold ">
           From timeless classics to modern marvels, we offer pieces that
           transforms houses into homes. Whether you're furnishing a cozy nook or
@@ -16,14 +16,14 @@ const Hero = () => {
           unique style!
         </hi>
         <div className="m-20">
-          <button className="m-5 px-8 py-4 bg-orange-600 rounded-md text-white font-semibold">
+          <button className="m-5 px-6 md:px-8 py-4 bg-green-600 rounded-md text-white font-semibold">
             Learn More
           </button>
-          <button className=" text-orange-500 font-semibold px-8 py-4 bg-transparent border-orange-600 border-2 rounded-md">
+          {/* <button className=" text-green-600 font-semibold px-8 py-4 bg-transparent border-green-600 border-2 rounded-md">
             About Us
-          </button>
+          </button> */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

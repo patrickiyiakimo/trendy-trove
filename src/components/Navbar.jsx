@@ -22,7 +22,7 @@ const Navbar = () => {
     <div
       className={`navbar ${
         theme === "dark" ? "dark" : ""
-      } bg-base-100 text-orange-600`}
+      } bg-base-100 text-green-600 font-semibold`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -71,7 +71,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-3xl font-bold text-orange-600">
+        <a className="btn btn-ghost text-3xl font-bold text-green-600">
           Furnex
         </a>
       </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end ">
-        <button className="btn text-orange-600" onChange={handleToggle}>
+        <button className="btn text-green-600" onChange={handleToggle}>
           <label className="flex cursor-pointer gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"

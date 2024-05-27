@@ -5,7 +5,7 @@ import SimpleSlider from './SimpleSlider';
 const BestProducts = () => {
   return (
     <div>
-      <div className="text-4xl font-semibold m-20 ">Shop our best products</div>
+      <div className="md:text-4xl text-2xl text-center font-semibold mt-10 md:m-20 ">Shop our best products</div>
       <div className=''>
         <div>
           <SimpleSlider />
