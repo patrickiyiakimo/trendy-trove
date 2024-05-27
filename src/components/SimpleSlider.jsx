@@ -2,10 +2,38 @@ import React, { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pixify from "../images/pixify-three.jpg";
 import Cards from "./Cards";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 
-function SimpleSlider() {
+
+const simpleNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    >
+      NEXT
+    </div>
+  );
+};
+
+const simplePrevArrow = (props) => {
+   const { className, style, onClick } = props;
+   return (
+     <div
+       className={className}
+       style={{ ...style, display: "block", background: "green" }}
+       onClick={onClick}
+     >
+      BACK
+     </div>
+   );
+}
+
+const SimpleSlider = () => {
   const [recipes, setRecipes] = React.useState([]);
   const slider = React.useRef(null);
 
@@ -50,16 +78,33 @@ function SimpleSlider() {
         },
       },
     ],
+
+    nextArrow: <simpleNextArrow />,
+    prevArrow: <simplePrevArrow />
   };
   return (
     <div className="slider-container">
-      <Slider {...settings}>
+      <div className="align-center justify-center flex">
+        <button
+          onClick={() => slider?.current?.slickPrev()}
+          className="px-2 py-2 rounded-full ml-5 hover:bg-gray-300"
+        >
+          <IoIosArrowBack />
+        </button>
+        <button onClick={() => slider?.current?.slickNext()}
+        className="px-2 py-2 rounded-full hover:bg-gray-300"
+        >
+          <IoIosArrowForward />
+        </button>
+      </div>
+
+      <Slider ref={slider} {...settings}>
         {recipes.map((item) => (
           <Cards key={item._id} item={item} />
         ))}
       </Slider>
     </div>
   );
-}
+};
 
 export default SimpleSlider;

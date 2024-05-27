@@ -1,12 +1,13 @@
 // eslint-disable react/prop-types
 import React from "react";
 import { FaHeart } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Cards = ({ item }) => {
   const [isHeartFilled, setIsHeartFilled] = React.useState(false);
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-96 bg-base-100 shadow-2xl ml-10 mb-10">
       <figure>
         <img
           src={item.image}
@@ -18,13 +19,15 @@ const Cards = ({ item }) => {
         <h2 className="card-title">{item.name}</h2>
         <p>{item.body}</p>
         <div
-          className={`${isHeartFilled ? "text-red-500" : "text-green-600"}`}
+          className={`${isHeartFilled ? "text-red-600" : "text-green-600"}`}
           onClick={() => setIsHeartFilled(!isHeartFilled)}
         >
           <FaHeart className="mt-10 h-5 w-5 cursor-pointer absolute" />
         </div>
         <div className="card-actions justify-end">
-          <button className="btn bg-green-600 text-white">Read More...</button>
+          <button className="btn bg-green-600 text-white">
+            Read More... <IoIosArrowForward />
+          </button>
         </div>
       </div>
     </div>

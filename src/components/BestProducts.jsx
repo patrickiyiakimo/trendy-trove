@@ -9,7 +9,6 @@ const BestProducts = () => {
       <div className=''>
         <div>
           <SimpleSlider />
-          {/* <BestProductImages /> */}
         </div>
       </div>
     </div>
