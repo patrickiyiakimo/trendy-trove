@@ -1,5 +1,6 @@
 import React from "react";
 import background from "../images/dreamtime-hero-image.jpg";
+import "../App.css"; 
 
 const Hero = () => {
   return (
@@ -16,12 +17,9 @@ const Hero = () => {
           unique style!
         </hi>
         <div className="m-20">
-          <button className="m-5 px-6 md:px-8 py-4 bg-green-600 rounded-md text-white font-semibold">
+          <button className="button">
             Learn More
           </button>
-          {/* <button className=" text-green-600 font-semibold px-8 py-4 bg-transparent border-green-600 border-2 rounded-md">
-            About Us
-          </button> */}
         </div>
       </div>
     </div>
