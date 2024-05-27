@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 2,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 3,
+    "name": "Living Room",
+    "image": "/images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 4,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 5,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 6,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 7,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  },
+  {
+    "_id": 8,
+    "name": "Living Room",
+    "image": "../images/image-nine.jpg",
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+  }
+]
