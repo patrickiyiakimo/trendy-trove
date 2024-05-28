@@ -6,7 +6,7 @@ const ModernFurniture = () => {
   return (
     <div className="md:flex">
       <div>
-        <h1 className="text-2xl md:text-4xl font-semibold pt-20 ml-10 md:ml-20">
+        <h1 className="text-2xl md:text-4xl font-semibold pt-20 ml-5 md:ml-20">
           We help you make
           <br /> Modern Furnitures
         </h1>
@@ -26,11 +26,11 @@ const ModernFurniture = () => {
           <pan>𓋪 Research and inspiartion</pan>
           <pan>𓋪 Marketing and Distribution</pan>
           <pan>𓋪 Sketching and Rendering</pan>
-          <button className="mr-40 px-3 py-3">Explore More</button>
+          <button className="hover:bg-green-500 w-40 mr-40 px-3 py-3">Explore More</button>
         </div>
       </div>
       <div>
-        <img src={furniture} alt="living room furniture" className="md:w-3/2 ml-5 md:mr-40  rounded md:h-96 md:pt-40 " />
+        <img src={furniture} alt="living room furniture" className="md:w-3/2 ml-10 md:mr-40  rounded md:h-96 md:pt-40 " />
       </div>
     </div>
   );

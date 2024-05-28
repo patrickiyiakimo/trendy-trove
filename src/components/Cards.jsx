@@ -7,7 +7,7 @@ const Cards = ({ item }) => {
   const [isHeartFilled, setIsHeartFilled] = React.useState(false);
 
   return (
-    <div className="card w-80 md:w-96 bg-base-100 shadow-2xl ml-7 md:ml-10 mb-10">
+    <div className="card w-80 md:w-96 bg-base-100 shadow-2xl ml-12 md:ml-10 mb-10">
       <figure>
         <img
           src={item.image}
