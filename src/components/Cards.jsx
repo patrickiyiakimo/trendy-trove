@@ -7,7 +7,7 @@ const Cards = ({ item }) => {
   const [isHeartFilled, setIsHeartFilled] = React.useState(false);
 
   return (
-    <div className="card w-96 bg-base-100 shadow-2xl ml-10 mb-10">
+    <div className="card w-80 md:w-96 bg-base-100 shadow-2xl ml-7 md:ml-10 mb-10">
       <figure>
         <img
           src={item.image}
@@ -25,7 +25,7 @@ const Cards = ({ item }) => {
           <FaHeart className="mt-10 h-5 w-5 cursor-pointer absolute" />
         </div>
         <div className="card-actions justify-end">
-          <button className="btn bg-green-600 text-white">
+          <button className="btn bg-green-600 text-white ">
             Read More... <IoIosArrowForward />
           </button>
         </div>

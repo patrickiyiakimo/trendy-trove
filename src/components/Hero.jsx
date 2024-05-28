@@ -8,7 +8,7 @@ const Hero = () => {
       className="bg-cover h-screen bg-bottom w-full"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="pt-20 pl-10 pr-10 md:p-40 items-center h-screen text-white">
+      <div className="pt-40 pl-5 pr-10 md:p-40 items-center h-screen text-white">
         <hi className="text-2xl font-bold ">
           From timeless classics to modern marvels, we offer pieces that
           transforms houses into homes. Whether you're furnishing a cozy nook or
@@ -17,7 +17,7 @@ const Hero = () => {
           unique style!
         </hi>
         <div className="m-20">
-          <button className="button">
+          <button className="button px-3 py-3">
             Learn More
           </button>
         </div>

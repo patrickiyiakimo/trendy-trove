@@ -10,7 +10,7 @@ const ModernFurniture = () => {
           We help you make
           <br /> Modern Furnitures
         </h1>
-        <p className="ml-10 mr-10 md:ml-20 pt-4 md:pr-40">
+        <p className="ml-5 mr-10 md:ml-20 pt-4 md:pr-40">
           Begin by researching modern furniture designs and trends.
           <br /> Look for inspiration in magazines,
           <br /> online platforms, and design exhibitions. Develope a marketing
@@ -26,11 +26,11 @@ const ModernFurniture = () => {
           <pan>𓋪 Research and inspiartion</pan>
           <pan>𓋪 Marketing and Distribution</pan>
           <pan>𓋪 Sketching and Rendering</pan>
-          <button className="mr-40">Explore More</button>
+          <button className="mr-40 px-3 py-3">Explore More</button>
         </div>
       </div>
       <div>
-        <img src={furniture} alt="living room furniture" className="md:w-3/2 ml-10 mr-10  rounded md:h-96 md:pt-40 " />
+        <img src={furniture} alt="living room furniture" className="md:w-3/2 ml-5 md:mr-40  rounded md:h-96 md:pt-40 " />
       </div>
     </div>
   );
