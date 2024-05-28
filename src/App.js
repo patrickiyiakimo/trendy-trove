@@ -1,4 +1,5 @@
 import BestProducts from "./components/BestProducts";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import ModernFurniture from "./components/ModernFurniture";
 import Navbar from "./components/Navbar";
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

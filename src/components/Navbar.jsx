@@ -28,7 +28,7 @@ const Navbar = () => {
       className={`navbar ${
         theme === "dark" ? "dark" : ""
         } bg-base-100 text-green-600 font-semibold z-10 fixed
-          transition-all duration-300 ease-in-out
+          transition-all duration-300 ease-in-out shadow-xl
         `}
     >
       <div className="navbar-start ">
