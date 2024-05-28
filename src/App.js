@@ -2,6 +2,7 @@ import BestProducts from "./components/BestProducts";
 import Hero from "./components/Hero";
 import ModernFurniture from "./components/ModernFurniture";
 import Navbar from "./components/Navbar";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
         <ModernFurniture />
+      </div>
+      <div>
+        <WhyChooseUs />
       </div>
     </div>
   );
