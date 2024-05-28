@@ -1,6 +1,6 @@
 import React from "react";
 import hello from "../images/pato.JPG";
-import furniture from "../images/image_eight.jpg";
+import Testimonies from "./Testimonies";
 
 const Testimonials = () => {
   return (
@@ -34,61 +34,7 @@ const Testimonials = () => {
         </div>
       </div>
       {/* card testimonials */}
-      <div className="card w-96 glass ml-10 mb-20">
-        <figure>
-          <img
-            src={furniture}
-            alt="furniture"
-            className="hover:scale-105 transition-all duration-200"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Patrick I.</h2>
-          <p>
-            Thrilled with my recent purchase from{" "}
-            <span className="text-xl font-semibold text-green-600">Furnex</span>
-            . The quality of the furniture exceeded my expectations, and the
-            delivery process was seamless. Will definitely be shopping here
-            again.
-          </p>
-          <div className="">
-            <div className="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                className="mask mask-star-2 bg-orange-600"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                className="mask mask-star-2 bg-orange-600"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                className="mask mask-star-2 bg-orange-600"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                className="mask mask-star-2 bg-orange-600"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                className="mask mask-star-2 bg-orange-300"
-                checked
-              />
-            </div>
-          </div>
-          {/* <div className="card-actions justify-end">
-            <button className="btn btn-primary">Learn now!</button>
-          </div> */}
-        </div>
-      </div>
+     <Testimonies />
     </div>
   );
 };
