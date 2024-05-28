@@ -2,6 +2,7 @@ import BestProducts from "./components/BestProducts";
 import Hero from "./components/Hero";
 import ModernFurniture from "./components/ModernFurniture";
 import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
 
 
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div>
         <WhyChooseUs />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   );

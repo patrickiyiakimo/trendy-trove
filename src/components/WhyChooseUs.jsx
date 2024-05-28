@@ -41,8 +41,7 @@ const WhyChooseUs = () => {
           <div className="md:pr-40 pb-10">
             <span className="font-semibold text-2xl">Hassle Free Returns</span>
             <br />
-            With our user-friendly website, <br />
-            you can easily browse our products, <br />
+            You can easily browse our products, <br />
             compare options, <br />
             and make purchases from <br />
             the comfort of your own home.
