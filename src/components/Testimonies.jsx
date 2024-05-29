@@ -16,7 +16,7 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <div className="flex gap-4">
+          <div className="flex gap-10">
             <h2 className="card-title">Patrick I.</h2>
             <div className="avatar">
               <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -76,8 +76,8 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <div className="flex gap-4">
-            <h2 className="card-title">Rick Raymond</h2>
+          <div className="flex gap-10">
+            <h2 className="card-title">Rick Ray</h2>
             <div className="avatar">
               <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src={pato} alt="pato" />
@@ -136,7 +136,7 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <div className="flex gap-4">
+          <div className="flex gap-10">
             <h2 className="card-title">Matt Lee</h2>
             <div className="avatar">
               <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
