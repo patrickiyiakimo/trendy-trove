@@ -26,7 +26,7 @@ const Cards = ({ item }) => {
         </div>
         <div className="card-actions justify-end">
           <button className="btn bg-green-600 text-white ">
-            Read More... <IoIosArrowForward />
+           Add to Cart <IoIosArrowForward />
           </button>
         </div>
       </div>

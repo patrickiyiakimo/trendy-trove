@@ -63,13 +63,13 @@ const Navbar = () => {
               <a>Services</a>
             </li>
             <li>
-              <a>Blog</a>
+              <a>Menu</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Furnitures</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Living Room</a>
                 </li>
               </ul>
             </li>
@@ -92,13 +92,13 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>Blog</summary>
+              <summary>Menu</summary>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Furnitures</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Living Room</a>
                 </li>
               </ul>
             </details>

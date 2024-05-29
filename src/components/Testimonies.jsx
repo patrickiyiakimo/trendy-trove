@@ -2,6 +2,7 @@ import React from "react";
 import furniture from "../images/image_eight.jpg";
 import furnitures from "../images/image-nine.jpg";
 import furnex from "../images/image_six.jpg";
+import pato from "../images/pato.JPG";
 
 const Testmonies = () => {
   return (
@@ -15,7 +16,15 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Patrick I.</h2>
+          <div className="flex gap-4">
+            <h2 className="card-title">Patrick I.</h2>
+            <div className="avatar">
+              <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={pato} alt="pato" />
+              </div>
+            </div>
+          </div>
+
           <p>
             Thrilled with my recent purchase from{" "}
             <span className="text-xl font-semibold text-green-600">Furnex</span>
@@ -67,7 +76,15 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Rachael Orton</h2>
+          <div className="flex gap-4">
+            <h2 className="card-title">Rick Raymond</h2>
+            <div className="avatar">
+              <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={pato} alt="pato" />
+              </div>
+            </div>
+          </div>
+
           <p>
             Thrilled with my recent purchase from{" "}
             <span className="text-xl font-semibold text-green-600">Furnex</span>
@@ -119,7 +136,15 @@ const Testmonies = () => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Ricky Raymond</h2>
+          <div className="flex gap-4">
+            <h2 className="card-title">Matt Lee</h2>
+            <div className="avatar">
+              <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={pato} alt="pato" />
+              </div>
+            </div>
+          </div>
+
           <p>
             I recently redecorated my living room to become more classy with
             pieces from
