@@ -2,6 +2,7 @@ import BestProducts from "./components/BestProducts";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import ModernFurniture from "./components/ModernFurniture";
+import MyPlayer from "./components/MyPlayer";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
         <BestProducts />
+      </div>
+      <div>
+        <MyPlayer />
       </div>
       <div>
         <ModernFurniture />

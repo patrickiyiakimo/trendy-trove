@@ -103,7 +103,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-3xl font-bold text-green-600">
+        <a className="ml-2 text-3xl font-bold text-green-600">
           Furnex
         </a>
       </div>
