@@ -12,7 +12,7 @@ import pics6 from "../images/image-nine.jpg";
 const MyPlayer = () => {
   return (
     <div className="pt-20">
-      <h1 className="text-center text-4xl font-semibold">Our Gallery</h1>
+      <h1 className="text-center text-2xl pb-4 md:text-4xl font-semibold">Our Gallery</h1>
       <div className="md:flex ml-20">
         <div className="mr-10">
           <video
