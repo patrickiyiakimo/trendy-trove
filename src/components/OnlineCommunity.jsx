@@ -51,8 +51,8 @@ const OnlineCommunity = () => {
               )}
               k+
             </p>
-            <p className=" pr-10 md:pr-10 md:pt-3 text-sm ">
-              Web Traffic Per Month
+            <p className=" md:pr-10 md:pt-3 text-sm ">
+             Followers around <br className="md:hidden"/>the world/Top brands
             </p>
           </div>
         </div>
