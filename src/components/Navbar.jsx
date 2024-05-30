@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import React from "react";
 
 const Navbar = () => {
-
-  
-
   // theme toggle function
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
@@ -63,6 +60,9 @@ const Navbar = () => {
               <a>Services</a>
             </li>
             <li>
+              <a>Contact Us</a>
+            </li>
+            <li>
               <a>Menu</a>
               <ul className="p-2">
                 <li>
@@ -72,9 +72,6 @@ const Navbar = () => {
                   <a>Living Room</a>
                 </li>
               </ul>
-            </li>
-            <li>
-              <a>Contact Us</a>
             </li>
             <li>
               <div
@@ -103,9 +100,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className=" ml-2 text-3xl font-bold text-green-600">
-          Furnex
-        </a>
+        <a className=" ml-2 text-3xl font-bold text-green-600">Furnex</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -116,20 +111,20 @@ const Navbar = () => {
             <a>Services</a>
           </li>
           <li>
+            <a>Contact Us</a>
+          </li>
+          <li>
             <details>
-              <summary>Menu</summary>
+              <summary>Contact</summary>
               <ul className="p-2">
                 <li>
-                  <a>Furnitures</a>
+                  <a>Sign Up</a>
                 </li>
                 <li>
-                  <a>Living Room</a>
+                  <a>Log In</a>
                 </li>
               </ul>
             </details>
-          </li>
-          <li>
-            <a>Contact Us</a>
           </li>
           <li>
             <div
