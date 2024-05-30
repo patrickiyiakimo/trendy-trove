@@ -1,6 +1,7 @@
 import React from "react";
 import background from "../images/dreamtime-hero-image.jpg";
 import "../App.css"; 
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,9 +18,9 @@ const Hero = () => {
           unique style!
         </hi>
         <div className="m-20">
-          <button className="button px-3 py-3">
-            Learn More
-          </button>
+          <Link to="/learnmore">
+            <button className="button px-3 py-3">Learn More</button>
+          </Link>
         </div>
       </div>
     </div>
