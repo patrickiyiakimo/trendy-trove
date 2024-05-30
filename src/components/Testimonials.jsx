@@ -8,7 +8,7 @@ const Testimonials = () => {
       <p className="text-center font-semibold text-green-600 pb-3">
         TESTIMONIALS
       </p>
-      <h1 className="text-center font-semibold text-2xl md:text-4xl pb-10">
+      <h1 className="text-center font-semibold text-2xl md:text-6xl pb-10">
         Our Client Reviews
       </h1>
       <div className="avatar-group mb-10 flex items-center justify-center -space-x-6 rtl:space-x-reverse">

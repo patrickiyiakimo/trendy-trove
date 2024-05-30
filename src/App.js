@@ -5,6 +5,7 @@ import LearnMore from "./components/LearnMore";
 import ModernFurniture from "./components/ModernFurniture";
 import MyPlayer from "./components/MyPlayer";
 import Navbar from "./components/Navbar";
+import OnlineCommunity from "./components/OnlineCommunity";
 import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -40,6 +41,9 @@ function App() {
             </div>
             <div>
               <Testimonials />
+            </div>
+            <div>
+              <OnlineCommunity />
             </div>
             <div>
               <Footer />
