@@ -59,17 +59,17 @@ const Navbar = () => {
             <li>
               <a>Services</a>
             </li>
-            <li>
+            {/* <li>
               <a>Contact Us</a>
-            </li>
+            </li> */}
             <li>
-              <a>Menu</a>
+              <a>Contact</a>
               <ul className="p-2">
                 <li>
-                  <a>Furnitures</a>
+                  <a>Sign Up</a>
                 </li>
                 <li>
-                  <a>Living Room</a>
+                  <a>Log In</a>
                 </li>
               </ul>
             </li>
@@ -110,9 +110,9 @@ const Navbar = () => {
           <li>
             <a>Services</a>
           </li>
-          <li>
+          {/* <li>
             <a>Contact Us</a>
-          </li>
+          </li> */}
           <li>
             <details>
               <summary>Contact</summary>
