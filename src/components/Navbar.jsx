@@ -66,7 +66,7 @@ const Navbar = () => {
               <a>Contact</a>
               <ul className="p-2">
                 <li>
-                  <a>Sign Up</a>
+                  <a>SignUp</a>
                 </li>
                 <li>
                   <a>Log In</a>
