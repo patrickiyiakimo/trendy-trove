@@ -12,7 +12,7 @@ const Cards = ({ item }) => {
         <img
           src={item.image}
           alt="furnitures"
-          className="hover:scale-105 transition-all duration-200 rounded-md"
+          className="hover:scale-105 cursor-pointer transition-all duration-200 rounded-md"
         />
       </figure>
       <div className="card-body">
