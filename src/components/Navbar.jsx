@@ -281,7 +281,6 @@ const Navbar = () => {
     document.getElementById("desktop_sign_up_modal").showModal();
   };
 
-  
   return (
     <div
       className={`navbar ${
@@ -359,6 +358,7 @@ const Navbar = () => {
                           placeholder="JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
+                        <button>Submit</button>
                       </form>
                     </div>
                   </dialog>
@@ -444,7 +444,7 @@ const Navbar = () => {
                           placeholder="JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
-                        {/* <button onSubmit={submitter}>Submit</button> */}
+                        <button>Submit</button>
                       </form>
                     </div>
                   </dialog>
