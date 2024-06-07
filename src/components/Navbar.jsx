@@ -358,7 +358,13 @@ const Navbar = () => {
                           placeholder="JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
-                        <button>Submit</button>
+                        <button className="hover:bg-green-500">Submit</button>
+                        <p>
+                          Already have a account?{" "}
+                          <span className="text-blue-600 underline ml-20">
+                            Log In
+                          </span>
+                        </p>
                       </form>
                     </div>
                   </dialog>
@@ -444,7 +450,13 @@ const Navbar = () => {
                           placeholder="JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
-                        <button>Submit</button>
+                        <button className="hover:bg-green-500">Submit</button>
+                        <p>
+                          Already have a account?{" "}
+                          <span className="text-blue-600 underline ml-48">
+                            Log In
+                          </span>
+                        </p>
                       </form>
                     </div>
                   </dialog>
