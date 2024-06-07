@@ -249,17 +249,11 @@
 
 // export default Navbar;
 
-
-
-
-
-
-
-
 import { useEffect, useState } from "react";
 import React from "react";
 
 const Navbar = () => {
+  // const [isAccepted, setIsAccepted] = useState();
   // theme toggle function
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
@@ -287,6 +281,7 @@ const Navbar = () => {
     document.getElementById("desktop_sign_up_modal").showModal();
   };
 
+  
   return (
     <div
       className={`navbar ${
@@ -338,15 +333,33 @@ const Navbar = () => {
                     className="modal flex items-center justify-center"
                   >
                     <div className="modal-box ">
+                      <h3 className="font-bold mb-5 text-lg">SIGN UP</h3>
                       <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
                           ✕
                         </button>
+                        <input
+                          type="text"
+                          name="text"
+                          id="name"
+                          placeholder="John Doe"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="JohnDoe@gmail.com"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
+                        <input
+                          type="password"
+                          name="password"
+                          id="password"
+                          placeholder="JohnDoe1234"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
                       </form>
-                      <h3 className="font-bold text-lg">Hello!</h3>
-                      <p className="py-4">
-                        Press ESC key or click on ✕ button to close
-                      </p>
                     </div>
                   </dialog>
                 </li>
@@ -405,15 +418,34 @@ const Navbar = () => {
                     className="modal flex items-center justify-center"
                   >
                     <div className="modal-box ">
+                      <h3 className="font-bold mb-5 text-lg">SIGN UP</h3>
                       <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
                           ✕
                         </button>
+                        <input
+                          type="text"
+                          name="text"
+                          id="name"
+                          placeholder="John Doe"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="JohnDoe@gmail.com"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
+                        <input
+                          type="password"
+                          name="password"
+                          id="password"
+                          placeholder="JohnDoe1234"
+                          className="border-2 px-3 py-4 w-full mb-4"
+                        />
+                        {/* <button onSubmit={submitter}>Submit</button> */}
                       </form>
-                      <h3 className="font-bold text-lg">Hello!</h3>
-                      <p className="py-4">
-                        Press ESC key or click on ✕ button to close
-                      </p>
                     </div>
                   </dialog>
                 </li>
