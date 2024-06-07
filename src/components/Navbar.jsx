@@ -331,7 +331,7 @@ const Navbar = () => {
                     id="mobile_sign_up_modal"
                     className="modal flex items-center justify-center"
                   >
-                    <div className="modal-box ">
+                    <div className="modal-box">
                       <h3 className="font-bold mb-5 text-lg">SIGN UP</h3>
                       <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -342,21 +342,21 @@ const Navbar = () => {
                           name="text"
                           id="name"
                           placeholder="John Doe"
-                          className="border-2 px-3 py-4 w-full mb-4"
+                          className="border-2 px-3 py-4 w-full mb-4  block"
                         />
                         <input
                           type="email"
                           name="email"
                           id="email"
                           placeholder="JohnDoe@gmail.com"
-                          className="border-2 px-3 py-4 w-full mb-4"
+                          className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <input
                           type="password"
                           name="password"
                           id="password"
                           placeholder="JohnDoe1234"
-                          className="border-2 px-3 py-4 w-full mb-4"
+                          className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <button>Submit</button>
                       </form>
