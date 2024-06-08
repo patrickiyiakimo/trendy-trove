@@ -88,6 +88,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Testimonials from "./components/Testimonials";
 import OnlineCommunity from "./components/OnlineCommunity";
 import Footer from "./components/Footer";
+import CartPage from "./components/CartPage";
 // import ItemDetail from "./components/ItemDetail"; // Create this component
 
 function App() {
@@ -111,6 +112,9 @@ function App() {
           {/* <Route path="/item/:id">
             <ItemDetail />
           </Route> */}
+          <Route path="/cartpage">
+            <CartPage />
+          </Route>
           <Route exact path="/">
             <Hero />
             <BestProducts />
