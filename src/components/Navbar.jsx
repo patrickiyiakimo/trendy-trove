@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
+import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Navbar = () => {
@@ -38,9 +39,17 @@ const Navbar = () => {
     document.getElementById("desktop_log_in_modal").showModal();
   };
 
+  // form validation
+
+   const {
+     register,
+     handleSubmit,
+     formState: { errors },
+   } = useForm();
+
+    const onSubmit = (data) => console.log(data);
   
-
-
+  
   return (
     <div
       className={`navbar ${
@@ -140,7 +149,8 @@ const Navbar = () => {
                     <div className="modal-box">
                       <h3 className="font-bold mb-5 text-lg">LOG IN</h3>
                       <form method="dialog">
-                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        <button
+                          className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
                           ✕
                         </button>
                         <input
