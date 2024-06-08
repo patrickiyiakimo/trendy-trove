@@ -746,21 +746,21 @@ const Navbar = () => {
                           type="text"
                           name="text"
                           id="name"
-                          placeholder="John Doe"
+                          placeholder="name: John Doe"
                           className="border-2 px-3 py-4 w-full mb-4  block"
                         />
                         <input
                           type="email"
                           name="email"
                           id="email"
-                          placeholder="JohnDoe@gmail.com"
+                          placeholder="email: JohnDoe@gmail.com"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <input
                           type="password"
                           name="password"
                           id="password"
-                          placeholder="JohnDoe1234"
+                          placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <button className="hover:bg-green-500">Submit</button>
@@ -792,14 +792,14 @@ const Navbar = () => {
                           type="email"
                           name="email"
                           id="email"
-                          placeholder="JohnDoe@gmail.com"
+                          placeholder="email: JohnDoe@gmail.com"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <input
                           type="password"
                           name="password"
                           id="password"
-                          placeholder="JohnDoe1234"
+                          placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <button className="hover:bg-green-500">Submit</button>
@@ -874,21 +874,21 @@ const Navbar = () => {
                           type="text"
                           name="text"
                           id="desktop_signup_name"
-                          placeholder="John Doe"
+                          placeholder="name: John Doe"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
                         <input
                           type="email"
                           name="email"
                           id="desktop_signup_email"
-                          placeholder="JohnDoe@gmail.com"
+                          placeholder="email: JohnDoe@gmail.com"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
                         <input
                           type="password"
                           name="password"
                           id="desktop_signup_password"
-                          placeholder="JohnDoe1234"
+                          placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
                         <button className="hover:bg-green-500">Submit</button>
@@ -920,14 +920,14 @@ const Navbar = () => {
                           type="email"
                           name="email"
                           id="desktop_login_email"
-                          placeholder="JohnDoe@gmail.com"
+                          placeholder="email: JohnDoe@gmail.com"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <input
                           type="password"
                           name="password"
                           id="desktop_login_password"
-                          placeholder="JohnDoe1234"
+                          placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
                         <button className="hover:bg-green-500">Submit</button>
