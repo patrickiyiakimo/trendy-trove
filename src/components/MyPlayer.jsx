@@ -45,7 +45,6 @@ const MyPlayer = () => {
           <div>
             <img src={pics6} alt="images" className="mr-10 hover:scale-105 transition-all duration-200 mt-4 rounded-md ml-5" />
           </div>
-          {/* </Marquee> */}
         </div>
       </div>
     </div>
