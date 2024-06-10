@@ -1,6 +1,5 @@
 import React from 'react'
 import SimpleSlider from './SimpleSlider';
-// import BestProductImages from './BestProductImages'
 
 const BestProducts = () => {
   return (
