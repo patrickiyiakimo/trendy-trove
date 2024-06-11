@@ -127,7 +127,9 @@ const Navbar = () => {
                           placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
-                        <button className="hover:bg-green-500">Submit</button>
+                        <button className="hover:bg-green-500 py-2">
+                          Submit
+                        </button>
                         <p>
                           Already have a account?{" "}
                           <span className="text-blue-600 underline ml-20">
@@ -149,8 +151,7 @@ const Navbar = () => {
                     <div className="modal-box">
                       <h3 className="font-bold mb-5 text-lg">LOG IN</h3>
                       <form method="dialog">
-                        <button
-                          className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
                           ✕
                         </button>
                         <input
@@ -167,7 +168,9 @@ const Navbar = () => {
                           placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
-                        <button className="hover:bg-green-500">Submit</button>
+                        <button className="hover:bg-green-500 py-2">
+                          Submit
+                        </button>
                         <p>
                           Don't have an account?{" "}
                           <span className="text-blue-600 underline ml-20">
@@ -258,7 +261,9 @@ const Navbar = () => {
                           placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4"
                         />
-                        <button className="hover:bg-green-500">Submit</button>
+                        <button className="hover:bg-green-500 px-48 py-2">
+                          Submit
+                        </button>
                         <p>
                           Already have an account?{" "}
                           <span className="text-blue-600 underline ml-48">
@@ -297,7 +302,9 @@ const Navbar = () => {
                           placeholder="password: JohnDoe1234"
                           className="border-2 px-3 py-4 w-full mb-4 block"
                         />
-                        <button className="hover:bg-green-500">Submit</button>
+                        <button className="hover:bg-green-500 px-48 py-2">
+                          Submit
+                        </button>
                         <p>
                           Don't have an account?{" "}
                           <span className="text-blue-600 underline ml-48">
