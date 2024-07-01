@@ -41,15 +41,14 @@ const Navbar = () => {
 
   // form validation
 
-   const {
-     register,
-     handleSubmit,
-     formState: { errors },
-   } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-    const onSubmit = (data) => console.log(data);
-  
-  
+  const onSubmit = (data) => console.log(data);
+
   return (
     <div
       className={`navbar ${

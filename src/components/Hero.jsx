@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../images/dreamtime-hero-image.jpg";
-import "../App.css"; 
+import "../App.css";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
