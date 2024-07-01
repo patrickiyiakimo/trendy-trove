@@ -8,8 +8,6 @@ const CartPage = () => {
       </h1>
       <p>Take a look at the incredible items you have added to your cart:)</p>
       <p>Take a look at the incredible items you have added to your cart:)</p>
-      <p>Take a look at the incredible items you have added to your cart:)</p>
-    
     </div>
   );
 };
