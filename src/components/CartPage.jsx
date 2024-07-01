@@ -7,6 +7,9 @@ const CartPage = () => {
         Cart Items
       </h1>
       <p>Take a look at the incredible items you have added to your cart:)</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nihil.
+      </p>
     </div>
   );
 };
