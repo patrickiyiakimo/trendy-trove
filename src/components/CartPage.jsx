@@ -7,6 +7,7 @@ const CartPage = () => {
         Cart Items
       </h1>
       <p>Take a look at the random items you added to your cart</p>
+      <p>I do not know the meaning of fullstack</p>
     </div>
   );
 };
