@@ -52,7 +52,9 @@ const Navbar = () => {
   return (
     <div
       className={`navbar ${
-        theme === "dark" ? "dark" : ""
+        theme === "bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg"
+          ? "dark"
+          : "bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg"
       } bg-base-100 text-green-600 font-semibold z-10 fixed
           transition-all duration-300 ease-in-out shadow-xl
         `}
