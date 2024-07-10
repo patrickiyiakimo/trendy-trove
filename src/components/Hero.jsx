@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
+    id="Hero"
       className="bg-cover h-screen bg-bottom w-full"
       style={{ backgroundImage: `url(${background})` }}
     >

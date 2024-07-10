@@ -218,10 +218,10 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <a href="#Hero">Home</a>
           </li>
           <li>
-            <a>Services</a>
+            <a href="#WhyChooseUs">Services</a>
           </li>
           <li>
             <details>
@@ -268,7 +268,7 @@ const Navbar = () => {
                         <p>
                           Already have an account?{" "}
                           <span className="text-blue-600 underline ml-48">
-                            Log In
+                            <a href="#LOG IN"> Log In</a>
                           </span>
                         </p>
                       </form>
@@ -283,7 +283,7 @@ const Navbar = () => {
                     id="desktop_log_in_modal"
                     className="modal flex items-center justify-center"
                   >
-                    <div className="modal-box">
+                    <div className="modal-box" id="LOG IN">
                       <h3 className="font-bold mb-5 text-lg">LOG IN</h3>
                       <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">

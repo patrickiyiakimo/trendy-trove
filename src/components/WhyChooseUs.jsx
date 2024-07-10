@@ -3,7 +3,7 @@ import random from "../images/pixify-three.jpg";
 
 const WhyChooseUs = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="WhyChooseUs">
       <div>
         <h1 className="text-2xl md:text-6xl font-semibold text-center mb-5 md:mb-10">
           Why Choose Us
