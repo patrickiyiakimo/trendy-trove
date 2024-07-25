@@ -3,48 +3,56 @@
     "_id": 1,
     "name": "Living Room",
     "image": "../images/image-nine.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$20"
   },
   {
     "_id": 2,
     "name": "Collab Room",
     "image": "/images/image_eight.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$50"
   },
   {
     "_id": 3,
     "name": "Masters Room",
     "image": "/images/image_four.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$40"
   },
   {
     "_id": 4,
     "name": "Bed Room",
     "image": "/images/image_one.jpg",
-    "body": "Unlease your to make not only comfortable but also a pleasant place to start and end your day"
+    "body": "Unlease your to make not only comfortable but also a pleasant place to start and end your day",
+    "price": "$20"
   },
   {
     "_id": 5,
     "name": "Office",
     "image": "/images/main_hero_image.jpg",
-    "body": "The home office design ideas featured here are maximised for efficiency, optimised for space, and improvised by spacejoy designers."
+    "body": "The home office design ideas featured here are maximised for efficiency, optimised for space, and improvised by spacejoy designers.",
+    "price": "$60"
   },
   {
     "_id": 6,
     "name": "Classy Space",
     "image": "/images/image_six.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$30"
   },
   {
     "_id": 7,
     "name": "Dinner Room",
     "image": "/images/image_eight.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$20"
   },
   {
     "_id": 8,
     "name": "Restuarants",
     "image": "/images/image_two.jpg",
-    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house."
+    "body": "As one of the  most frequented spots in the living room sets the tone for the rest of the house.",
+    "price": "$50"
   }
 ]
